@@ -1,0 +1,37 @@
+# Data and large artifacts are never committed (see docs/datasets.md for how to fetch them)
+data/
+derivatives/
+outputs/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.nii
+*.nii.gz
+*.fdt
+*.set
+*.edf
+*.vhdr
+*.vmrk
+*.eeg
+*.h5
+*.npz
+*.npy
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
